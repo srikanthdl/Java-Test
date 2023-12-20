@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_srikanthdl_Java_Test_1703056518279-push-trigger-input-set
+  identifier: Build_srikanthdl_Java_Test_1703056518279pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_srikanthdl_Java_Test_1703056518279
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
